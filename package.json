@@ -1,0 +1,19 @@
+{
+  "name": "dev-dashboard",
+  "version": "2.15.9",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "ejs": "2.5.3",
+    "express": "4.14.0",
+    "newman": "3.3.1",
+    "node-cron": "1.1.1",
+    "request": "2.79.0"
+  }
+}
