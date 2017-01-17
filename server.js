@@ -5,7 +5,7 @@ var index=require('./routes/index');
 var taskapi=require('./routes/task');
 var app=express();
 var port=2017;
-//set view engine
+//set view engine ------
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
