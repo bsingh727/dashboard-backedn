@@ -1,7 +1,6 @@
 var newman = require('newman'); // require newman in your project
 var path = require('fs');
 var output_filename;
-var abc;
 module.exports = {
   executenewman: function (collectionJson,filename) {
     var runner_status;
